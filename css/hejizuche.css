@@ -1,0 +1,266 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{vertical-align: top;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.gWidth{
+	width: 999px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top{
+	width: 1440px;
+	border-top:4px solid #F08D18;
+	height: 100px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+    }
+.top-p{
+	width: 385px;
+	height: 100px;
+	float: right;
+	margin-right: 150px;
+}
+.top-p a,.top-p p{
+	line-height: 40px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: black;
+}
+.top-p em{
+	font-style: normal;
+	margin: 0 15px;
+}
+.top p span{
+	color:#F08D18;
+}
+.top .top-p-x{
+	float: right;
+}
+ .top .logo{
+	float: left;
+	margin-left: 150px;
+}
+.nav{
+	width: 1290px;
+	height: 50px;
+	background-color: #4B4A48;
+	padding-left: 150px;
+}
+.nav a{
+	height: 50px;
+	line-height: 50px;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #fff;
+}
+.nav p{
+	float: left;
+	padding: 0 40px;
+}
+ .nav .hover{
+	background-color: #F08D18;
+}
+.nav p:hover{
+	background-color: #F08D18;
+	
+}
+.navbar img{
+	margin-top: -9px;
+}
+.banner{
+	width: 1140px;
+	padding: 0 150px;
+}
+.remen,.tehui{
+	width: 820px;
+	float: left;
+}
+.remen .remen_t,.tehui .tehui_t{
+	width: 820px;
+	height: 28px;
+	border-bottom: 2px solid #000;
+	font-family: 微软雅黑;
+}
+.remen_t h3,.tese_t h3,.tehui_t h3{
+	font-size: 18px;
+	color: #EF8D18;
+	float: left;
+}
+.remen_t h6,.tese_t h6,.tehui_t h6{
+	font-size: 12px;
+	color: black;
+	float: right;
+}
+.remen .new, .tehui .huiyuan,.tehui .guoqing{
+	width: 250px;
+	height: 200px;
+	margin: 10px ;
+	float: left;
+}
+.new p{
+	text-align: center;
+}
+.new a , .huiyuan p,.guoqing p{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: black;
+}
+.new span{
+	font-weight: bold;
+}
+.tese{
+	width: 300px;
+	float: right;
+}
+.tese_t{
+	width: 300px;
+	height: 28px;
+	border-bottom: 2px solid black;
+	font-family: 微软雅黑;
+}
+.huiyuan{
+	height: 300px;
+}
+.tehui .guoqing{
+	height: 120px;
+}
+.tese ul{
+	background: url(../img/bg2.gif) no-repeat right bottom;
+}
+.tese li{
+	line-height: 35px;
+	background: url(../img/fx.gif) no-repeat left  center;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.redian{
+	width: 1140px;
+		float: left;
+}
+.redian_t h3{
+	width: 100%;
+	font-size: 18px;
+	color: #EF8D18;
+	height: 28px;
+	border-bottom: 2px solid #000;
+	font-family: 微软雅黑;
+}
+.redian a{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	margin: 10px;
+	color: black;
+}
+.redian span{
+	margin: 0 10px;
+}
+.footer{
+	width: 1440px;
+	height: 220px;
+	background-color: #4B4A48;
+	border-top: 6px solid #F08D18;
+	padding: 0 150px ;
+}
+.footer .ft{
+	width: 1140px;
+	border-bottom: 2px solid #B3B3B3;
+	
+}
+.footer .ft  ul{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 20px;
+	float:  left;
+	margin-right: 60px;
+}
+.footer p {
+	font-size: 18px;
+}
+.footer li{
+	line-height: 20px;
+}
+.ft img{
+	margin: 20px;
+}
+.footer_p {
+	width: 1140px;
+	border-bottom: 1px dashed #EF8D18;
+	line-height: 40px;
+	height: 40px;
+}
+.footer_p p{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.footer_p p span{
+	float: right;
+}
+.footer_p p em{
+	margin: 0 20px ;
+	font-style: normal;
+}
+.biaodan{
+	background-color: #fff;
+	margin: 0 auto;
+	width: 398px;
+	height: 300px;
+	border: 3px solid #4B4A48;
+	position: absolute;
+	left: 200px; top: 150px;
+}
+.biaodan ul{
+	width: 100%;
+	height: 50px;
+	background-color: #CCCCCC;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color:black;
+}
+.biaodan ul li{
+	float: left;
+	padding: 0 66px;
+	line-height: 50px;
+}
+.biaodan .olp li{
+	line-height: 33px;
+	display: none;
+}
+.biaodan select{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color:black;
+}
+.active{
+	background-color: #fff;
+	border: 3px solid black;
+	border-bottom: none;
+}
+.biaodan ol p{
+	float: left;
+	margin: 10px 0;
+}
+.biaodan input{
+	float: left;
+	background-color: #F08D18;
+	color: #fff;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	border: 2px solid #F08D18;
+	margin-top: 60px;
+	margin-left: -70px;
+}
+.olp .show{
+	display: block;
+}
